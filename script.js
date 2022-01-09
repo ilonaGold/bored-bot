@@ -6,5 +6,6 @@ document.getElementById("add-activity").addEventListener("click", function() {
       document.getElementById("title").textContent = "What a great idea!";
       document.getElementById("icon-one").textContent = "💡";
       document.getElementById("icon-two").textContent = "🦾";
+      document.body.style.backgroundImage = "url('images/super.png')";
     })
 })
